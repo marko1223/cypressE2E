@@ -19,7 +19,7 @@ module.exports = defineConfig({
     // implement node event listeners here
     },
     baseUrl: 'https://google.com/',
-    defaultCommandTimeout: 10000,
+    defaultCommandTimeout: 25000,
 
   },
   chromeWebSecurity: false,

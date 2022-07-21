@@ -43,6 +43,7 @@ describe("Compare country data on Wiki", () => {
                 googlePage.openWikiPage()
                 //verify capital restcountries.com is equal with capital wikipedia
                 wikipediaPage.validateCapital(element.capital)
+                console.log('Country' + element.name.common + 'complete comparation for capital')
             })
 
 
@@ -68,6 +69,7 @@ describe("Compare country data on Wiki", () => {
                 googlePage.searchForCountry(element.name.common)
                 googlePage.openWikiPage()
                 wikipediaPage.validateRegion(element.demonyms.eng.m)
+                console.log('Country' + element.name.common + 'complete comparation for demonyms')
             })
 
         })
@@ -91,6 +93,7 @@ describe("Compare country data on Wiki", () => {
                 googlePage.searchForCountry(element.name.common)
                 googlePage.openWikiPage()
                 wikipediaPage.validateCarDrivingSide(element.car.side)
+                console.log('Country' + element.name.common + 'complete comparation for drivingCarSide')
 
             })
 
