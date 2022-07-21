@@ -1,6 +1,5 @@
 *.log
 node_modules/
-cypress/screenshot/
+cypress/screenshots/
 cypress/results/
 cypress/videos/
-support/
