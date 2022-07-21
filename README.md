@@ -11,6 +11,7 @@ Install all dependencies with `npm install`
 
 ## Workflow
 
+* Folder /results/scrennshots/videos with result will be created after first run
 * PageObject folder contains .js files with locators,functions and verifications which are used in tests.
 * Test folder contains currently 1 suite with 3 tests.
 * Test calling functions from PageObject and in communication with them execute test.
