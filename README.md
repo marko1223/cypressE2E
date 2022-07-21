@@ -7,7 +7,7 @@ Install all dependencies with `npm install`
 
 * `npx cypress open` - runs Cypress in GUI mode - follow progress of test in real time
 * `npx cypress run` - runs Cypress headless mode - check results file for report at the end
-* `cypress run --browser chrome` - runs tests on chrome default is electron (electron sometimes has slow response time)
+* `npx cypress run --browser chrome` - runs tests on chrome default is electron (electron sometimes has slow response time)
 
 ## Workflow
 
