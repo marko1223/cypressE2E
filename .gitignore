@@ -1,6 +1,6 @@
 *.log
-node_modules
-.DS_Store
-cypress/screenshots
-cypress/results
-cypress/videos
+node_modules/
+cypress/screenshot/
+cypress/results/
+cypress/videos/
+support/
